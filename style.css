@@ -1,0 +1,68 @@
+body {
+    background: #292931;
+}
+#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}
+#login h2{
+    text-align: center;
+    color: white;
+    font-family: normal;
+    font-size: 35px;
+}
+#login input{
+    display: block;
+    width: 320px;
+    height: 40px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: normal;
+    color: white;
+    background: rgba(0,0,0,0.3);
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+    box-shadow: inset 0px - 5px 45px rgba(100,100,100,0.2),0px 1px 1px rgba(255,255,255,0.2);
+    margin-bottom: 13px;
+}
+#login #login-button{
+    background: #55acee;
+    font-size: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px; 
+    margin-bottom: 50px; 
+}
+
+.next-button, .no-button {
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.next-button, .no-button {
+    padding: 10px 20px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.next-button:hover {
+    background-color: #333;
+}
